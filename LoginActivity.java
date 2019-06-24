@@ -69,6 +69,7 @@ public class LoginActivity extends AppCompatActivity {
     }
     //to check git pull
 
+
     private void validate(String userName, String userPassword) {
 
         progressDialog.setMessage("Wait while we verify your Credentials!");
