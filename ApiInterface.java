@@ -19,7 +19,10 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
 
-    @FormUrlEncoded
+  //this is a comment
+
+
+   // @FormUrlEncoded
     @POST("index.php")
     Call<Products> saveProduct(@Field("type") String ntype,
                             @Field("name") String nname,
