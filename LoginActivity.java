@@ -67,6 +67,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+    //to check git pull
 
     private void validate(String userName, String userPassword) {
 
