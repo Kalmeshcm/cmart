@@ -83,6 +83,8 @@ public class AddActivity extends AppCompatActivity {
         final ProgressDialog progressDialog = new ProgressDialog(this);
 
         save.setOnClickListener(new View.OnClickListener() {
+
+        
             @Override
             public void onClick(View view) {
                 FirebaseUser seller = FirebaseAuth.getInstance().getCurrentUser();
