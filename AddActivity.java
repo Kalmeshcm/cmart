@@ -82,8 +82,10 @@ public class AddActivity extends AppCompatActivity {
         name = (EditText) findViewById(R.id.etdataname);
         tvaddp = (TextView) findViewById(R.id.tvaddp);
         final ProgressDialog progressDialog = new ProgressDialog(this);
-
+//save button
         save.setOnClickListener(new View.OnClickListener() {
+
+        
             @Override
             public void onClick(View view) {
                 FirebaseUser seller = FirebaseAuth.getInstance().getCurrentUser();
